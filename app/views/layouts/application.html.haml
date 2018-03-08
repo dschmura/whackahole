@@ -3,7 +3,7 @@
   %head
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %title= page_title
-    = favicon_link_tag asset_pack_path('tada/images/favicon.png')
+    = favicon_link_tag asset_pack_path('whackahole/images/favicon.png')
 
     = csrf_meta_tags
     = stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
@@ -16,4 +16,3 @@
       = yield
       = render 'layouts/footer'
       = render 'feedback/feedback'
-
